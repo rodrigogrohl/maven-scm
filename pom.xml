@@ -264,7 +264,7 @@
       <dependency>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-utils</artifactId>
-        <version>3.0.15</version>
+        <version>3.0.24</version>
       </dependency>
 
       <dependency>
@@ -379,7 +379,7 @@
         						</goals>
         					</pluginExecutionFilter>
         					<action>
-        						<ignore></ignore>
+        						<ignore/>
         					</action>
         				</pluginExecution>
         				<pluginExecution>
@@ -396,7 +396,7 @@
         						</goals>
         					</pluginExecutionFilter>
         					<action>
-        						<ignore></ignore>
+        						<ignore/>
         					</action>
         				</pluginExecution>
         				<pluginExecution>
@@ -413,7 +413,7 @@
         						</goals>
         					</pluginExecutionFilter>
         					<action>
-        						<ignore></ignore>
+        						<ignore/>
         					</action>
         				</pluginExecution>
         			</pluginExecutions>
@@ -632,7 +632,7 @@
             <reportSets>
               <reportSet>
                 <!-- Disabled as it kills the site generation via a NoClassDefFoundError -->
-                <reports />
+                <reports/>
               </reportSet>
             </reportSets>
           </plugin>
@@ -671,7 +671,7 @@
                 <id>source-release-assembly</id>
                 <configuration>
                   <!-- SCM-737 -->
-                  <descriptorRefs combine.self="override" />
+                  <descriptorRefs combine.self="override"/>
                   <descriptors>
                     <descriptor>src/main/assemblies/scm-source-release.xml</descriptor>
                   </descriptors>
